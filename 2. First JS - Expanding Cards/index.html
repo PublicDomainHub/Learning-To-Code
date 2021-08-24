@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Expanding Cards</title>
+  </head>
+  <body>
+    <!-- Create 5 divs within a container. Only the first div is of a class =
+    "panel active" at the moment. The rest are regular "panels". The javascript
+    will take care of this later -->
+
+    <div class="container">
+      <div
+        class="panel active"
+        style="
+          background-image: url('https://images.unsplash.com/photo-1599492161003-44e14be90b05?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80');
+        "
+      >
+        <h3>Explore The World</h3>
+      </div>
+      <div
+        class="panel"
+        style="
+          background-image: url('https://images.unsplash.com/photo-1622357102666-c9f68f951fa6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80');
+        "
+      >
+        <h3>Visit The Coast</h3>
+      </div>
+      <div
+        class="panel"
+        style="
+          background-image: url('https://images.unsplash.com/photo-1626594211049-c46850235805?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1316&q=80');
+        "
+      >
+        <h3>Smell The Flowers</h3>
+      </div>
+      <div
+        class="panel"
+        style="
+          background-image: url('https://images.unsplash.com/photo-1629364438134-8f546e1d8974?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80');
+        "
+      >
+        <h3>Feed The Animals</h3>
+      </div>
+      <div
+        class="panel"
+        style="
+          background-image: url('https://images.unsplash.com/photo-1629491011862-af5720ac882a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80');
+        "
+      >
+        <h3>Bring Your Bikini</h3>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
